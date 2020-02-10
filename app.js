@@ -3,6 +3,7 @@ const session = require('express-session');
 const mongoose = require('mongoose');
 const MongoStore = require('connect-mongo')(session);
 const cors = require('cors');
+const pug = require('pug');
 
 //port variables
 const port = 3000;
